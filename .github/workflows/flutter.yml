@@ -17,4 +17,3 @@ steps:
   - run: flutter pub get
 
   - run: flutter build apk --release
-```
