@@ -6,7 +6,7 @@ import '../models/chat_message_model.dart';
 class OpenRouterService {
   static const String _baseUrl =
       'https://openrouter.ai/api/v1/chat/completions';
-  static const String _model = 'openai/gpt-4o-mini';
+  static const String _model = 'deepseek/deepseek-v4-flash:free';
   static const String _apiKey = String.fromEnvironment(
     'OPENROUTER_API_KEY',
     defaultValue: '',
