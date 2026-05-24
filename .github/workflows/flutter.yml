@@ -15,13 +15,13 @@ steps:
   - name: Setup Java
     uses: actions/setup-java@v4
     with:
-      distribution: 'temurin'
+      distribution: temurin
       java-version: '17'
 
   - name: Setup Flutter
     uses: subosito/flutter-action@v2
     with:
-      channel: 'stable'
+      channel: stable
 
   - name: Flutter Version
     run: flutter --version
