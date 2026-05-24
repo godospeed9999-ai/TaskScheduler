@@ -7,7 +7,7 @@ static const String _baseUrl =
 'https://openrouter.ai/api/v1/chat/completions';
 
 static const String _apiKey =
-'YOUR_OPENROUTER_API_KEY';
+'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';
 
 static const String _model =
 'deepseek/deepseek-v4-flash:free';
