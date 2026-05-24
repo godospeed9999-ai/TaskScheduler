@@ -7,10 +7,7 @@ class OpenRouterService {
   static const String _baseUrl =
       'https://openrouter.ai/api/v1/chat/completions';
   static const String _model = 'deepseek/deepseek-v4-flash:free';
-  static const String _apiKey = String.fromEnvironment(
-    'OPENROUTER_API_KEY',
-    defaultValue: '',
-  );
+  static const String _apiKey = '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';
 
   static const String systemPrompt = '''
 You are an intelligent AI task scheduler assistant. Your job is to have a natural, 
